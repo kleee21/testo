@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ensiklopedia Kerajaan Aceh</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+  <link rel="stylesheet" href="style/style.css" />
+  <script defer src="script/script.js"></script>
+</head>
+
+<body class="bg-gradient-to-b from-yellow-100 via-yellow-200 to-yellow-50 font-sans text-gray-800">
+  <!-- Navbar -->
+  <nav class="fixed w-full z-10 top-0 backdrop-blur-sm bg-white/30 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between h-16">
+        <div class="flex items-center space-x-8">
+          <a href="index.html"><img src="History (3).png" alt="" id="logo" class="bekgron"></a>
+        </div>
+        <div class="hidden md:flex items-center space-x-6">
+          <a href="index.html" class="hover:text-yellow-700">Beranda</a>
+          <a href="sejarah.html" class="hover:text-yellow-700">Sejarah</a>
+          <a href="galeri.html" class="hover:text-yellow-700">Galeri</a>
+          <a href="profil.html" class="hover:text-yellow-700">Profil</a>
+        </div>
+        <div class="md:hidden flex items-center">
+          <button id="mobile-menu-button" class="text-gray-700 focus:outline-none">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="mobile-menu" class="hidden md:hidden px-4 pb-4">
+      <a href="index.html" class="block py-2">Beranda</a>
+      <a href="sejarah.html" class="block py-2">Sejarah</a>
+      <a href="galeri.html" class="block py-2">Galeri</a>
+      <a href="profil.html" class="block py-2">Profil</a>
+    </div>
+  </nav>
+
+  <!-- pembukaan -->
+  <header class="pt-20 pb-10 text-center" data-aos="fade-up">
+    <h1 class="text-4xl md:text-6xl font-extrabold text-yellow-800">
+      Selamat Datang di Ensiklopedia Kerajaan Aceh
+    </h1>
+    <p class="mt-4 text-lg text-yellow-900">
+      Menelusuri sejarah kejayaan nusantara abad ke-15 hingga 17
+    </p>
+  </header>
+
+  <!-- area buat tes interaksi -->
+  <section class="max-w-4xl mx-auto py-10 px-4">
+    <div class="bg-yellow-100 p-6 rounded-2xl shadow-lg hover:shadow-xl transition duration-300" data-aos="fade-up"
+      data-aos-delay="200">
+      <h2 class="text-2xl font-semibold text-yellow-800 mb-2">Mengapa Kerajaan Aceh Penting?</h2>
+      <p class="text-gray-700">
+        Kerajaan Aceh Darussalam adalah salah satu kerajaan Islam terbesar dan terkuat di Nusantara pada abad ke-16
+        hingga 17. Kejayaannya tidak hanya di bidang militer, tapi juga dalam penyebaran Islam dan perdagangan
+        internasional.
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-yellow-800 text-white text-center py-4 mt-10">
+    &copy; 2025 Ensiklopedia Kerajaan Aceh. Seluruh hak cipta dilindungi.
+  </footer>
+
+  <!-- AOS Animation Library -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,
+      once: true
+    });
+  </script>
+</body>
+
+</html>
