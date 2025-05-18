@@ -41,12 +41,12 @@ footer {
 
 #logo{
 	position: fixed;
-	z-index: 1300;
-	height: 6%;
+	z-index: 100;
+	height: 5.5%;
 	top: 0%;
 	left: 1%;
 	transform: scale(0.8);
-  width: 200px;
+  width: 240px;
 }
 
    /* TIMELINE STYLES */
@@ -144,7 +144,7 @@ footer {
   
   @media (max-width: 768px) {
     .timeline::before {
-      left: 8px;
+      left: 25px;
     }
     .timeline-item {
       width: 100%;
@@ -154,4 +154,89 @@ footer {
     .timeline-item::before {
       left: 20px !important;
     }
+  }
+
+
+  @media (max-width: 768px) {
+    .timeline-item-left,
+    .timeline-item-right {
+      left: 0 !important;
+      width: 100%;
+      padding-left: 4rem;
+      padding-right: 2rem;
+      text-align: center !important;
+    }
+  
+    .timeline-item::before {
+      left: 16px !important;
+    }
+  }
+
+  .timeline .bg-white {
+    text-align: left;
+  }
+  
+  @media (max-width: 768px) {
+    .timeline .bg-white {
+      text-align: center;
+    }
+  }
+
+
+  @media (max-width: 768px) {
+    #logo {
+      width: 150px;
+      height: auto;
+      position: static;
+      transform: scale(1);
+    }
+  }
+
+  #gunung1{
+    z-index: 1;
+    left: 0%;
+  }
+  
+  #gunung2{
+    right: -1%;
+    top: -1%;
+    max-width: 70%;
+    max-height: 70%;
+  }
+  
+  #pohon2{
+    right: 0%;
+  }
+  
+  #tebing{
+  top: -1%;
+  max-width: 70%;
+  max-height: 70%;
+  }
+  
+  #bintang{
+    width: inherit;
+    height: inherit;
+  }
+  
+  #orang{
+    left: -3%;
+  }
+
+  #asep{
+    right: -1%;
+    bottom: -5%;
+    max-width: 70%;
+    max-height: 70%;
+  }
+  .bekgron{
+    position: absolute;
+    height: 100%;
+  }
+  #upperContainer{
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    background: transparent;
+    background: transparent;
   }
