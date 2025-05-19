@@ -192,47 +192,62 @@ footer {
     }
   }
 
-  #gunung1{
+  #batik_kiri{
     z-index: 1;
     left: 0%;
+    position: fixed;
   }
   
-  #gunung2{
+  #bunga_kanan_atas{
     right: -1%;
     top: -1%;
     max-width: 70%;
     max-height: 70%;
   }
   
-  #pohon2{
+  #batik_kanan{
     right: 0%;
+    position: fixed;
   }
   
-  #tebing{
+  #bunga_kiri_atas{
   top: -1%;
   max-width: 70%;
   max-height: 70%;
   }
   
-  #bintang{
-    width: inherit;
-    height: inherit;
-  }
-  
-  #orang{
+  #bunga_kiri_bawah{
     left: -3%;
   }
 
-  #asep{
+  #bunga_kanan_bawah{
     right: -1%;
     bottom: -5%;
     max-width: 70%;
     max-height: 70%;
   }
+
+ #awan{
+  width: 150%;
+  right: 0%;
+ }
+
+ #awan2{
+  width: 150%;
+  left: 0%;
+ }
+
+ #awan3{
+  width: 150%;
+  max-height: 150%;
+  right: 0%;
+ }
+
   .bekgron{
     position: absolute;
     height: 100%;
   }
+
   #upperContainer{
     position: absolute;
     width: 100%;
