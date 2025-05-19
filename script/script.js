@@ -15,25 +15,26 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
-orang = document.getElementById('orang');
-tebing = document.getElementById('tebing');
-pohon1 = document.getElementById('pohon1');
-pohon2 = document.getElementById('pohon2');
-title = document.getElementById('title');
-asep = document.getElementById('asep');
-gunung1 = document.getElementById('gunung1');
-gunung2 = document.getElementById('gunung2');
+bunga_kiri_bawah = document.getElementById('bunga_kiri_bawah');
+bunga_kiri_atas = document.getElementById('bunga_kiri_atas');
+bunga_kanan_bawah = document.getElementById('bunga_kanan_bawah');
+bunga_kanan_atas = document.getElementById('bunga_kanan_atas');
+awan = document.getElementById('awan');
+awan2 = document.getElementById('awan2');
+awan3 = document.getElementById('awan3');
+
 
 window.addEventListener('scroll', () => {
     value = window.scrollY;
 
-    orang.style.left = value * -0.03 + '%';
-    tebing.style.left = value * -0.02 + '%';
-    pohon1.style.left = value * -0.02 + '%';
-    pohon2.style.left = value * -0.04 + '%';
-    asep.style.right = value * -0.07 + '%';
-    gunung1.style.right = value * -0.06 + '%';
-    gunung2.style.right = value * -0.04 + '%'; 
+    bunga_kiri_bawah.style.left = value * -0.03 + '%';
+    bunga_kiri_atas.style.left = value * -0.02 + '%';
+    bunga_kanan_bawah.style.right = value * -0.03 + '%';
+    bunga_kanan_atas.style.right = value * -0.04 + '%'; 
+    awan.style.left = value * -0.03 + '%'; 
+    awan2.style.left = value * -0.04 + '%';
+    awan3.style.right = value * -0.07 + '%';
+    
 
     nav = document.getElementById('nav');
     if(value > 0){
